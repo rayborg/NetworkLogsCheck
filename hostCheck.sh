@@ -5,8 +5,8 @@ subnet="192.168.48."
 
 #To do with an array of specific hosts instead
 '''
-sigrid=(191 194 250)
-for host in "${sigrid[@]}"
+hosts=(191 194 250)
+for host in "${hosts[@]}"
 '''
 
 #Start ping loop
